@@ -1,0 +1,19 @@
+<ul class="nav nav-tabs" hawtio-auto-dropdown ng-controller="ResourcePlugin.NavBarController">
+
+  <li ng-class='{active : isActive("#/resource_plugin/utilisation")}'>
+	  <a ng-href="#/resource_plugin/utilisation">Utilisation</a>
+  </li>
+  
+  <li ng-class='{active : isActive("#/resource_plugin/datasource")}'>
+	  <a ng-href="#/resource_plugin/datasource">Data Sources</a>
+  </li>
+  
+
+  <li class="dropdown overflow" style="float: right !important; visibility: hidden;">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-chevron-down"></i></a>
+    <ul class="dropdown-menu right"></ul>
+  </li>
+</ul>
+
+<div ng-view></div>
+

@@ -1,0 +1,23 @@
+<div style="width:100%" class="ng-scope" >
+	<div class="panel panel-default panel-fix span12">
+         <div class="panel-heading">{{data.title}}</div>
+            <div class="panel-body">
+              <div class="span7">
+              	<div class="chart-container">
+              		<canvas id="doughnut" class="chart chart-doughnut" chart-data="data.content.datas" chart-labels="data.content.labels"></canvas> 
+              	</div>
+              </div>
+              
+              <div class="span5">
+              	<ul>
+              		<li>Init : {{data.init}} Mb</li>
+              		<li>Used : {{data.used}} Mb</li>
+              		<li>Committed : {{data.committed}} Mb</li>
+              		<li>Max : {{data.max}} Mb</li>
+              	</ul>
+              
+              </div>
+            </div>
+     </div>       
+</div>
+

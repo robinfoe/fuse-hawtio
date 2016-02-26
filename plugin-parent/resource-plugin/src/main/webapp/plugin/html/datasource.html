@@ -1,0 +1,10 @@
+<div class="simple-controller" ng-controller="ResourcePlugin.DatasourceController">
+
+	{{title}}
+	
+	<div ng-repeat="datasource in datasources">
+		<ds-info toggle='toggleUi(datasource)' data="datasource" />
+	</div>
+	
+	
+</div>

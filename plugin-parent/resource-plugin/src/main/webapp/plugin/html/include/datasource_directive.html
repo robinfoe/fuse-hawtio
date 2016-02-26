@@ -1,0 +1,72 @@
+<div class="row-fluid" class="ng-scope">
+	<div class="panel panel-default panel-fix span12">
+         <div class="panel-heading" ng-click="toggle(data)">{{data.mbean}}</div>
+         <div class="panel-body" ng-show="data.uiVisible">
+         	<div class="container-group-header">Security</div>
+         	
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Driver Class</strong></div>
+	         	<div class="span3" >{{data.driverClassName}}</div>
+	         </div>
+	         
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Url</strong></div>
+	         	<div class="span3" >{{data.url}}</div>
+	         </div>
+	         
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Username</strong></div>
+	         	<div class="span3" >{{data.username}}</div>
+	         	<div class="span3" ><strong>Password</strong></div>
+	         	<div class="span3" >{{data.password}}</div>
+	         </div>
+	         
+	         <div class="container-group-header">Connection Properties</div>
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Closed</strong></div>
+	         	<div class="span3" >{{data.close}}</div>
+	         	<div class="span3" ><strong>Auto Commit</strong></div>
+	         	<div class="span3" >{{data.defaultAutoCommit}}</div>
+	         </div>
+	         
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Initial Size</strong></div>
+	         	<div class="span3" >{{data.initialSize}}</div>
+	         	
+	         	<div class="span3" ><strong>Max Total</strong></div>
+	         	<div class="span3" >{{data.maxTotal}}</div>
+	         </div>
+	         
+	          <div class="row-fluid" >
+	         	<div class="span3" ><strong>Max Idle</strong></div>
+	         	<div class="span3" >{{data.maxIdle}}</div>
+	         	
+	         	<div class="span3" ><strong>Current Idle</strong></div>
+	         	<div class="span3" >{{data.numIdle}}</div>
+	         </div>
+	         
+	         <div class="row-fluid" >
+	         	<div class="span3" ><strong>Total Active</strong></div>
+	         	<div class="span3" >{{data.numActive}}</div>
+	         	
+	         	<div class="span3" ><strong>Max Wait Time</strong></div>
+	         	<div class="span3" >{{data.maxWaitMillis}}</div>
+	         </div>
+         
+         	<div class="row-fluid" >
+	         	<div class="span3" ><strong>Max Connection Life</strong></div>
+	         	<div class="span3" >{{data.maxConnLifetimeMillis}}</div>
+	         	
+	         	<div class="span3" ><strong>Max Open Prepared Stmt</strong></div>
+	         	<div class="span3" >{{data.maxOpenPreparedStatements}}</div>
+	         </div>
+         
+         	
+         </div>
+     </div>  
+</div>
+
+
+
+
+

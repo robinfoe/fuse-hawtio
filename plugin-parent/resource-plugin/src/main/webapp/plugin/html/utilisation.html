@@ -1,0 +1,25 @@
+<div class="simple-controller" ng-controller="ResourcePlugin.UtilisationController">
+
+
+	<div class="row-fluid">
+		<div class="span6">
+			<graph-heap data="data.heap"/>
+		</div>
+		
+		<div class="span6">
+			<graph-heap data="data.nonHeap"/>
+		</div>
+	</div>
+	
+	<div class="row-fluid">
+		<div class="span6">
+			<graph-garbage-collector data="data.gcPsScavage"/>
+		</div>
+		
+		<div class="span6">
+			<graph-garbage-collector data="data.gcPsMarkSweep"/>
+		</div>
+	</div>
+
+
+</div>
