@@ -139,56 +139,6 @@ var ResourcePlugin = (function(ResourcePlugin){
 							self[lowerKey]  = value;
 					});
 					
-					/*
-					 self.driverClassName = null;
-					
-					self.url = item.Url;
-					self.password = item.Password;
-					self.username = null;
-
-					self.closed = false;
-					self.initialSize = 0;
-					self.maxTotal = 0;
-					self.numActive = item.NumActive;
-					self.defaultAutoCommit = false;
-					self.maxIdle = item.MaxIdle;
-					self.numIdle = 0;
-					self.maxWaitMillis = 0;
-					self.maxConnLifetimeMillis = item.MaxConnLifetimeMillis;
-					self.maxOpenPreparedStatements = 0;
-					self.softMinEvictableIdleTimeMillis = item.SoftMinEvictableIdleTimeMillis;
-					self.MinEvictableIdleTimeMillis = 0;
-					
-					self.poolPreparedStatements = false;
-					self.testOnCreate = item.TestOnCreate;
-					self.testWhileIdle = false;
-					self.testOnBorrow = false;
-					
-					self.validationQuery = null;
-					self.validationQueryTimeout = 0;
-
-					self.numTestsPerEvictionRun = 0;
-					self.DefaultReadOnly = null;
-
-					self.removeAbandonedOnBorrow = item.RemoveAbandonedOnBorrow;
-					self.abandonedUsageTracking = item.AbandonedUsageTracking;
-					self.removeAbandonedTimeout = item.RemoveAbandonedTimeout;
-					self.defaultCatalog = item.DefaultCatalog;
-					self.accessToUnderlyingConnectionAllowed = item.AccessToUnderlyingConnectionAllowed;
-					self.logAbandoned = item.LogAbandoned;
-					self.disconnectionSqlCodesAsArray = item.DisconnectionSqlCodesAsArray;
-					self.logExpiredConnections = true;
-					self.fastFailValidation = false;
-					self.timeBetweenEvictionRunsMillis = 0;
-					self.removeAbandonedOnMaintenance = false;
-					self.lifo = true;
-					self.connectionInitSqlsAsArray = [];
-					self.cacheState = null;
-					self.defaultTransactionIsolation = -1;
-					 * */
-					
-					
-					//"":5,"":[],"":0,"LogExpiredConnections":true,"InitialSize":5,"Closed":false,"FastFailValidation":false,"TestOnBorrow":true,"TimeBetweenEvictionRunsMillis":-1,"RemoveAbandonedOnMaintenance":false,"MaxOpenPreparedStatements":-1,"NumIdle":0,"ValidationQuery":null,"Lifo":true,"DefaultAutoCommit":true,"MaxWaitMillis":-1,"MaxTotal":10,"ConnectionInitSqlsAsArray":[],"DriverClassName":"com.mysql.jdbc.Driver","CacheState":true,"Username":"root","ValidationQueryTimeout":-1,"PoolPreparedStatements":false,"DefaultTransactionIsolation":-1,"NumTestsPerEvictionRun":3,"MinEvictableIdleTimeMillis":1800000,"DefaultReadOnly":null
 				};
 				
 				
